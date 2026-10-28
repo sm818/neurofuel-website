@@ -1,0 +1,11 @@
+start,end,activity,load,glucose_uptake_capacity_umol_g_min,neuron_glycolytic_ATP_umol_g_min,astro_glycolytic_ATP_umol_g_min,neuron_TCA_flux_umol_g_min,astro_TCA_flux_umol_g_min,neuron_oxphos_ATP_umol_g_min,astro_oxphos_ATP_umol_g_min,neuron_TCA_GTP_umol_g_min,astro_TCA_GTP_umol_g_min,glutamate_cycle_flux_umol_g_min,glutamate_ATP_cost_umol_g_min,neuron_ATP_demand_umol_g_min,astro_ATP_demand_umol_g_min,total_ATP_demand_umol_g_min,neuron_ATP_supply_umol_g_min,astro_ATP_supply_umol_g_min,max_total_ATP_umol_g_min,supply_demand_ratio,neuron_unmet_ATP_umol_g_min,astro_unmet_ATP_umol_g_min,limiting_constraint
+07:00,08:00,Breakfast and morning routine,Low,0.43,0.5,0.36,0.31,0.09,4.34,1.26,0.31,0.09,0.155,0.31,4.9,1.65,6.550000000000001,5.15,1.71,6.86,1.047328,0,0,none for demand
+08:00,10:00,Lectures,Moderate,0.43,0.5,0.36,0.31,0.09,4.34,1.26,0.31,0.09,0.175,0.35,5.4,1.83,7.23,5.15,1.71,6.86,0.948824,0.25,0.12,ACO2 neuronal + astrocytic
+10:00,12:00,Intensive study,High,0.43,0.5,0.36,0.31,0.09,4.34,1.26,0.31,0.09,0.235,0.47,6.2,2.06,8.26,5.15,1.71,6.86,0.830508,1.05,0.35,ACO2 neuronal + astrocytic
+12:00,13:00,Lunch,Low,0.43,0.5,0.36,0.31,0.09,4.34,1.26,0.31,0.09,0.155,0.31,4.9,1.65,6.550000000000001,5.15,1.71,6.86,1.047328,0,0,none for demand
+13:00,14:00,Review notes,Moderate,0.43,0.5,0.36,0.31,0.09,4.34,1.26,0.31,0.09,0.175,0.35,5.4,1.83,7.23,5.15,1.71,6.86,0.948824,0.25,0.12,ACO2 neuronal + astrocytic
+14:00,17:00,Assignments,High,0.43,0.5,0.36,0.31,0.09,4.34,1.26,0.31,0.09,0.235,0.47,6.2,2.06,8.26,5.15,1.71,6.86,0.830508,1.05,0.35,ACO2 neuronal + astrocytic
+17:00,18:00,Rest/walk,Low,0.43,0.5,0.36,0.31,0.09,4.34,1.26,0.31,0.09,0.155,0.31,4.9,1.65,6.550000000000001,5.15,1.71,6.86,1.047328,0,0,none for demand
+18:00,19:00,Dinner,Low,0.43,0.5,0.36,0.31,0.09,4.34,1.26,0.31,0.09,0.155,0.31,4.9,1.65,6.550000000000001,5.15,1.71,6.86,1.047328,0,0,none for demand
+19:00,21:00,Light study,Moderate,0.43,0.5,0.36,0.31,0.09,4.34,1.26,0.31,0.09,0.175,0.35,5.4,1.83,7.23,5.15,1.71,6.86,0.948824,0.25,0.12,ACO2 neuronal + astrocytic
+21:00,23:00,Relax,Low,0.43,0.5,0.36,0.31,0.09,4.34,1.26,0.31,0.09,0.155,0.31,4.9,1.65,6.550000000000001,5.15,1.71,6.86,1.047328,0,0,none for demand
