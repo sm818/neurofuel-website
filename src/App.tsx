@@ -1,7 +1,7 @@
 import {useEffect,useMemo,useState} from 'react';
 import {Atom,Brain,ChartNoAxesCombined,ChevronRight,CircleHelp,FlaskConical,Info,Menu,Microscope,ShieldCheck,Sparkles,TestTubeDiagonal,X} from 'lucide-react';
 import {Area,AreaChart,Bar,BarChart,CartesianGrid,Legend,Line,LineChart,ResponsiveContainer,Tooltip,XAxis,YAxis} from 'recharts';
-import {defaults,loads,naid,nudge,reference,run,scenarios,type Constraint,type Inputs,type Load} from './lib/model';
+import {defaults,loads,naid,nudge,reference,run,scenarios,type Inputs,type Load} from './lib/model';
 const nav=[{name:'Explore Brain Metabolism',icon:Atom},{name:'What Happens If...?',icon:FlaskConical},{name:'Bottleneck Detector',icon:Microscope},{name:'Student Simulation',icon:ChartNoAxesCombined},{name:'Educational Nudges',icon:Sparkles}] as const;
 const detail:Record<string,{title:string,description:string,kind:string}>={
  BBB:{title:'Blood–brain barrier',description:'Endothelial GLUT1 supplies glucose; MCT1 transports monocarboxylates. Transport is saturable and depends on gradients, not just meal timing.',kind:'Transport'},
