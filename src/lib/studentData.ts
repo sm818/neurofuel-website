@@ -116,6 +116,7 @@ export function parseHours(csv: string): HourRecord[] {
 export function datasetUrl(file: string): string {
   // Vite substitutes BASE_URL at build time, including the GitHub Pages repository prefix.
 return `/neurofuel-website/data/${file}`;
+  }
 export async function loadCsv<T>(url: string, parser: (csv:string)=>T[], signal?:AbortSignal): Promise<T[]> {
   const response=await fetch(url,{signal});
   if (!response.ok) throw new Error(`Could not load ${url} (HTTP ${response.status})`);
